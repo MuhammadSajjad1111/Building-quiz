@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html/Css Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+    <div class="header">
+        <div id="logo"> <img src="logo.png" alt=""></div>
+        <div id="title"><span>HTML/CSS QUIZ</span></div>
+        <div id="links"><a href="">INFO</a> <a href="">HTML</a> <a href="">CSS</a></div>
+    </div>
+
+    <div class="innerContent">
+
+    <div id="studentInfo">
+        <h1>Student Info</h1>
+        <hr>
+       <div class="form">
+       <div class="form_inner"><label for="">Name:</label> <input type="text" required></div> 
+       <div class="form_inner"><label for="">Email:</label> <input type="text" required></div> 
+       <div class="form_inner"><label for="">D.O.B.:</label> <input style="font-size: 1rem;" type="date"></div> 
+       </div>
+      
+
+    </div>
+
+    <div id="html">
+        <h1>HTML</h1>
+        <hr>
+
+        <div class="quiz">
+            <h3>Question #1</h3>
+            <p>A label element nesting an input element is required to have a for attribute with the same value as the input's id</p>
+
+            <div class="radio">
+                <input type="radio" name="radio1"> True <br>
+                <input type="radio" name="radio1"> False 
+            </div>
+
+            <h3>Question #2</h3>
+            <p>A label element nesting an input element is required to have a for attribute with the same value as the input's id</p>
+
+            <div class="radio">
+                <input type="radio" name="radio2"> True <br>
+                <input type="radio" name="radio2"> False 
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="css">
+        <h1>CSS</h1>
+        <hr>
+      <div class="questions">
+        <p>Are you an frontend developer?</p>
+
+        <select name="opt" id="opt" class="select">
+            <option value="volvo">Select an option</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+          </select>
+
+          <p>Do you have any questions:</p>
+          <textarea name="" id="" cols="20" rows="5" placeholder="who is flexbox..." style="font-size: 1.4rem;"></textarea>
+
+      </div>
+
+    </div>
+
+           <button type="submit">Send</button>
+
+</div>
+
+<div class="footer">
+    <div class="footer_inner">
+        <a href="">freeCode Camp</a>
+        <p>San Francisco</p>
+        <p>California</p>
+        <p>USA</p>
+    </div>
+ 
+</div>
+</form>
+
+
+
+    
+</body>
+</html>
